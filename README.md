@@ -1,24 +1,30 @@
-# README
+##### Prerequisites
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The setups steps expect following tools installed on the system.
 
-Things you may want to cover:
+- Github
+- Ruby [2.7.4](https://github.com/ruby/www.ruby-lang.org)
+- Rails [7.0.4](https://github.com/rails/rails/tree/7-0-stable)
+- Postgresql [12+](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-ubuntu-20-04)
 
-* Ruby version
+##### Check out the repository
 
-* System dependencies
+```bash
+git clone git@github.com:mwaurajr/VenuSpotBackend.git
+```
 
-* Configuration
+Backend Setup
+===============================================================
+##### 1. Install Ruby Gems
 
-* Database creation
+```ruby
+bundle install
+```
 
-* Database initialization
+##### 3. Start the Rails server
 
-* How to run the test suite
+You can start the rails server using the command given below.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```ruby
+bundle exec rails s
+```
